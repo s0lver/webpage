@@ -1,0 +1,132 @@
+body{
+	background: url("../images/bg-gray.png");
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
+@font-face
+{
+	font-family: fuenteHeader;
+	src: url('../fonts/britanic.ttf'), url('../fonts/britanic.eot'); /* IE9 */
+}
+
+@font-face
+{
+	font-family: fuenteCalibri;
+	src: url('../fonts/calibri.ttf')
+}
+
+.redondeados{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 0px 0px 5px #000000;
+	-webkit-box-shadow: 0px 0px 5px #000000;
+	box-shadow: 0px 0px 5px #000000;
+}
+
+header{
+	background-color: #F0A830;
+	width: 50%;
+	min-width: 683px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+header h1{
+	font-family: fuenteHeader;
+	font-size: 3em;
+	text-align: center;
+	color: #5B371E;
+}
+
+section{
+	font-family: "Helvetica";
+	font-size: 0.85em;
+	text-align: justify;
+	padding: 15px;
+	background-color: #FCEBB6;
+	width: 50%;
+	min-width: 683px;
+	margin-top: 40px;
+	margin-left: -15px;	
+	margin: 0 auto;
+
+
+	border: 0px solid #999999;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	
+	-moz-box-shadow: 0px 0px 5px #000000;
+	-webkit-box-shadow: 0px 0px 5px #000000;
+	box-shadow: 0px 0px 5px #000000;
+}
+
+section h2{
+	text-align: center;
+}
+section img{
+	
+	display: block;
+	text-align: center;
+	width: 25%;
+	height: 25%;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+	-moz-box-shadow: 0px 0px 10px #000000;
+	-webkit-box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 10px #000000;
+}
+
+/*#footer2{
+	-moz-border-radius: 10px 10px 0px 0px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px;
+	margin-top: 40px;
+	padding: 20px;
+	height: auto;
+	min-height: 350px;
+    background-color: #1B4F44;
+	color: white;
+	font-family: Helvetica;
+}*/
+
+footer{
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;	
+	text-align: center;
+	width: 50%;
+	min-width: 683px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5pX;
+	margin: 0 auto;
+	margin-top: 40px;
+	background-color: #6CC4B9;
+	font-family: Helvetica;
+	-moz-box-shadow: 0px 0px 5px #000000;
+	-webkit-box-shadow: 0px 0px 5px #000000;
+	box-shadow: 0px 0px 5px #000000;
+}
+
+footer strong{
+	font-size:1em;
+}
+
+footer li{
+	font-size:0.8em;
+	list-style: none;
+	margin-top:20px;
+}
+
+footer a img{
+	border-style: none
+}
+
