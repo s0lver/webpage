@@ -1,5 +1,5 @@
 body{
-	background: url("../images/bg-gray.png");
+	background: url("../images/diagonal-noise.png");
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
@@ -8,95 +8,121 @@ body{
 @font-face
 {
 	font-family: fuenteHeader;
-	src: url('../fonts/britanic.ttf'), url('../fonts/britanic.eot'); /* IE9 */
+	src: url('../fonts/designosaur/Designosaur-Regular.ttf');
 }
 
 @font-face
 {
-	font-family: fuenteCalibri;
-	src: url('../fonts/calibri.ttf')
-}
-
-.redondeados{
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	-moz-box-shadow: 0px 0px 5px #000000;
-	-webkit-box-shadow: 0px 0px 5px #000000;
-	box-shadow: 0px 0px 5px #000000;
-}
-
-header{
-	background-color: #F0A830;
-	width: 50%;
-	min-width: 683px;
-	padding-left: 15px;
-	padding-right: 15px;
-	margin: 0 auto;
-}
-
-header h1{
-	font-family: fuenteHeader;
-	font-size: 3em;
-	text-align: center;
-	color: #5B371E;
+	font-family: Tauri;
+	src: url('../fonts/tauri.woff')
 }
 
 section{
-	font-family: "Helvetica";
-	font-size: 0.85em;
-	text-align: justify;
-	padding: 15px;
-	background-color: #FCEBB6;
-	width: 50%;
-	min-width: 683px;
-	margin-top: 40px;
-	margin-left: -15px;	
+	opacity: 0.84;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 84);
+	filter: alpha(opacity = 84);
+	
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background-color: #070d1a;
+	width: 40%;
+	min-width: 400px;
+	/*margin-left: -15px;	*/
 	margin: 0 auto;
-
-
-	border: 0px solid #999999;
+	margin-top: 50px;
+	
+	font-weight: normal;
+	/*height: 400px;*/
+	
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
-	
 	-moz-box-shadow: 0px 0px 5px #000000;
 	-webkit-box-shadow: 0px 0px 5px #000000;
 	box-shadow: 0px 0px 5px #000000;
 }
 
-section h2{
+section h1{
+	font-family: fuenteHeader;
+	font-size: 2em;
 	text-align: center;
+	color: #96bbdc;
 }
-section img{
-	
-	display: block;
-	text-align: center;
-	width: 25%;
-	height: 25%;
-	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
 
+section h2{
+	font-family: Tauri;
+	font-size: 1.3em;
+	text-align: center;
+	color: #ccd7e0;
+}
+
+section h3{
+	font-family: Tauri;
+	font-weight: normal;
+	font-size: 0.9em;
+	text-align: justify;
+	color: #ccd7e0;
+}
+
+
+content{
+	width: 100%;
+	display: inline-block;
+}
+
+#foto{
+	width: 20%;
+	min-width: 70px;
+	float: left;
+}
+
+#texto{
+	width: 78%;
+	min-width: 330px;
+	font-family: Tauri;
+	font-size: 0.75em;
+	font-weight: normal;
+	float: right;
+	line-height: 20px;
+	color: #ccd7e0;
+}
+
+.foto{
+	width: 100%;
+	/*height: 100%;*/
 	-moz-box-shadow: 0px 0px 10px #000000;
 	-webkit-box-shadow: 0px 0px 10px #000000;
 	box-shadow: 0px 0px 10px #000000;
+	opacity: 1;
+	-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity = 100);
+	/*-ms-filter must come before filter*/
+	filter: alpha(opacity = 100);
 }
 
-/*#footer2{
-	-moz-border-radius: 10px 10px 0px 0px;
-	-webkit-border-radius: 10px 10px 0px 0px;
-	border-radius: 10px 10px 0px 0px;
-	margin-top: 40px;
-	padding: 20px;
-	height: auto;
-	min-height: 350px;
-    background-color: #1B4F44;
-	color: white;
-	font-family: Helvetica;
-}*/
+.aditionalInfo{
+	color: #6ff05b;
+	font-family: Tauri;
+	font-size: 0.75em;
+	font-weight: normal;
+	line-height: 20px;
+}
 
-footer{
+section hr{
+	width: 100%;
+	border-style: solid;
+	color: #ccd7e0;
+}
+
+#contacto{
+	text-align: center;
+	width: 100%;
+}
+
+#contacto img{
+	border-style: none
+}
+/*footer{
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
 	border-radius: 10px 10px 10px 10px;	
@@ -128,5 +154,4 @@ footer li{
 
 footer a img{
 	border-style: none
-}
-
+}*/
