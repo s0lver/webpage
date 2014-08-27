@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d66076-0dad-401e-95ec-2f39ca9cab18" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="webpage.iws" />
@@ -182,7 +180,11 @@
       <created>1409157379216</created>
       <updated>1409157379216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="IDE Stuff&#10;">
+      <created>1409158487453</created>
+      <updated>1409158487453</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -230,7 +232,8 @@
     </option>
     <MESSAGE value="New version (first try)&#10;" />
     <MESSAGE value="New version of web site. First attempt." />
-    <option name="LAST_COMMIT_MESSAGE" value="New version of web site. First attempt." />
+    <MESSAGE value="IDE Stuff&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="IDE Stuff&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
