@@ -1,4 +1,4 @@
 #Cinvestav Website
 
-##Website at LTI Cinvestav web server
+##Repo for my web site at the LTI Cinvestav webserver
 ###Powered by Bootstrap
